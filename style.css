@@ -31,9 +31,9 @@ nav {
 }
 
 .right {
-  float: right;
+  float:right;
   color: white;
-  font-size: 1.25em;
+  font-size: 20px;
 }
 
 ul {
@@ -82,12 +82,12 @@ figcaption{
 }
 .medium-pic{
   display:block;
-  margin: auto;
+  margin:auto;
 }
 a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#333333; } /* visited */
 a:hover { color:#FFFFFF; } /* mouse over */
 a:active { color:#0070BD; }
-a{
+a {
   text-decoration: none;
 }
