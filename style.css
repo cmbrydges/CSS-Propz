@@ -1,89 +1,102 @@
 body {
-  background-color: #DAEEF5;
-  color: #202020;
-  font-size: 16px;
-  font-family: 'Proxima Nova'; Helvetica; Sans-serif;
+  background-color:#DAEEF5;
+  color:#202020;
+  font-size:16px;
+  font-family:'Proxima Nova',Helvetica,Sans-serif;
 }
 
 nav {
-  background-color: #45A2FC;
-  float: left;
-  position: fixed;
-  width: 100%;
+  background-color:#45A2FC;
+  position:absolute;
+  width:100%;
+  margin-bottom::10px;
 }
 
 .logo {
-  margin: 20px;
-  width: 100px;
+  margin:20px;
+  width:100px;
 }
 
 .large-pic {
-  width: 100%;
+  width:100%;
 }
 
 .medium-pic {
-  width: 70%;
+  width:70%;
+  padding:10px;
 }
 
-.left, .right {
-  float: left;
-  width: 50%;
+.left {
+  float:left;
+  width:50%;
+  padding-top:20px;
+  padding-left:10px;
 }
 
 .right {
   float:right;
-  color: white;
-  font-size: 20px;
+  color:white;
+  font-size:20px;
 }
 
 ul {
-  list-style-type: none;
-  float: right;
+  list-style-type:none;
+  float:right;
 }
 
 li {
-  float: right;
-  padding: 30px;
+  float:right;
+  padding:30px;
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 }
+
 h1 {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size:40px;
+  font-weight:bold;
 }
+
 h3 {
-  font-size:100%;
+  font-size:15px;
   color: #343536;
-  font-style: italic;
-  line-height: 1.2;
+  line-height: 1.4;
    }
+
 p {
-  line-height: 120%;
-  color: #343536;
+  line-height:1.2;
+  color:#343536;
 }
-.story-text{
-  font-size:85%
-  color: #343536;
+
+.story-text {
+  font-size:16px;
+  color:#343536;
+  line-height:2;
 }
+
 .author {
-  font-weight: bold;
-  font-size: 120%
+  font-weight:bold;
+  font-size:18px;
 }
+
 figcaption{
-  font-size: 75%;
-  text-align: center;
+  text-align:center;
+  font-size:18px;
+  padding-top:5px;
+  line-height:1.2;
 }
+
 .medium-pic{
   display:block;
   margin:auto;
 }
+
 a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#333333; } /* visited */
 a:hover { color:#FFFFFF; } /* mouse over */
